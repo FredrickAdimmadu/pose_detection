@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "325464902442",
+    "firebase_url": "https://machine-f12cf-default-rtdb.firebaseio.com",
+    "project_id": "machine-f12cf",
+    "storage_bucket": "machine-f12cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325464902442:android:e1c5137ee268ee42b3ac53",
+        "android_client_info": {
+          "package_name": "com.example.pose_detector"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfsHiZs6pZzLlgoEuSmBH6VcDb4-NY4rk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

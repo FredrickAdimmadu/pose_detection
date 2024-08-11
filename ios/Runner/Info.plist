@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>NSMicrophoneUsageDescription</key>
+           <string>We need access to your microphone to record audio</string>
+           <key>NSAudioRecordingUsageDescription</key>
+           <string>We need access to audio recording for this feature</string>
+
+           <key>NSAppTransportSecurity</key>
+
+           <key>NSBluetoothPeripheralUsageDescription</key>
+           <string>Our application uses Bluetooth to connect to devices.</string>
+           <key>NSBluetoothAlwaysUsageDescription</key>
+           <string>Our application uses Bluetooth to connect to devices.</string>
+           <key>NSLocationWhenInUseUsageDescription</key>
+           <string>Location is required to find nearby Bluetooth devices.</string>
+
+
+           <!-- Phone Call & SMS -->
+           <key>LSApplicationQueriesSchemes</key>
+           <array>
+               <string>tel</string>
+               <string>sms</string>
+           </array>
+           <!-- Contacts -->
+           <key>NSContactsUsageDescription</key>
+           <string>This app requires contacts access to function properly.</string>
+
+
+
+
+
+
+     <key>NSCameraUsageDescription</key>
+     <string>We need access to your camera for taking photos and videos</string>
+
+
+        <key>NSPhotoLibraryUsageDescription</key>
+        <string>We need access to your photo library to pick photos</string>
+
+
+   <key>NSContactsUsageDescription</key>
+   <string>We need access to your contacts for XYZ purpose</string>
+
+
+
+	 <key>NSLocationWhenInUsageDescription</key>
+       <string>This app needs access to location when open.</string>
+
+       <key>NSAppTransportSecurity</key>
+
+
+       <key>NSFaceIDUsageDescription</key>
+       <string>Why is my app authenticating using face id?</string>
+
+       <key>NSBluetoothPeripheralUsageDescription</key>
+       <string>We need Bluetooth access for connecting to devices.</string>
+
+       <key>NSBluetoothAlwaysUsageDescription</key>
+       <string>We need Bluetooth access for connecting to devices.</string>
+
+       <key>NSBluetoothAlwaysUsageDescription</key>
+       <string>We need Bluetooth access for connecting to devices.</string>
+
+            <key>NSHealthShareUsageDescription</key>
+            <string>We need your health data to show your metrics.</string>
+            <key>NSHealthUpdateUsageDescription</key>
+            <string>We need your health data to show your metrics.</string>
+
+<key>UIBackgroundModes</key>
+<array>
+    <string>fetch</string>
+    <string>location</string>
+</array>
+
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Pose Detector</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>pose_detector</string>
+	<key>CFBundlePackageType</key>
+        	<string>APPL</string>
+        	<key>CFBundleShortVersionString</key>
+        	<string>$(FLUTTER_BUILD_NAME)</string>
+        	<key>CFBundleSignature</key>
+        	<string>????</string>
+        	<key>CFBundleVersion</key>
+        	<string>$(FLUTTER_BUILD_NUMBER)</string>
+        	<key>LSRequiresIPhoneOS</key>
+            <true/>
+                    		<key>UILaunchStoryboardName</key>
+                    		<string>LaunchScreen</string>
+                    		<key>UIMainStoryboardFile</key>
+                    		<string>Main</string>
+                    		<key>UISupportedInterfaceOrientations</key>
+                    		<array>
+                    			<string>UIInterfaceOrientationPortrait</string>
+                    			<string>UIInterfaceOrientationLandscapeLeft</string>
+                    			<string>UIInterfaceOrientationLandscapeRight</string>
+                    		</array>
+                    		<key>UISupportedInterfaceOrientations~ipad</key>
+                    		<array>
+                    			<string>UIInterfaceOrientationPortrait</string>
+                    			<string>UIInterfaceOrientationPortraitUpsideDown</string>
+                    			<string>UIInterfaceOrientationLandscapeLeft</string>
+                    			<string>UIInterfaceOrientationLandscapeRight</string>
+                    		</array>
+                    		<key>UIViewControllerBasedStatusBarAppearance</key>
+                    		<false/>
+                    		<key>CADisableMinimumFrameDurationOnPhone</key>
+                    		<true/>
+                    		<key>UIApplicationSupportsIndirectInputEvents</key>
+
+
+                    		<key>NSAllowsArbitraryLoads</key>
+
+                    		<true/>
+
+                    		<key>UIBackgroundModes</key>
+                            <array>
+                                <string>remote-notification</string>
+                            </array>
+
+
+                    		<key>UIStatusBarHidden</key>
+                    		<false/>
+                            <key>CFBundleURLTypes</key>
+                            <array>
+                            	<dict>
+                            		<key>CFBundleTypeRole</key>
+                            		<string>Editor</string>
+                            		<key>CFBundleURLSchemes</key>
+                            		<array>
+                            		    <string>com.test.event</string>
+
+
+                            			<string>com.googleusercontent.apps.722218540390-l1pf6ilg4akmfi8fgljjahdilej6h13b</string>
+                            		</array>
+                            	</dict>
+                            </array>
+
+
+                    	</dict>
+                    </plist>
